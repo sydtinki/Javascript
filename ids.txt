@@ -1,0 +1,75 @@
+< html > 
+
+< head >
+
+< title > Learn Javascript </title> 
+
+< script type="text/javascript"> 
+
+ window.onload=getIds;
+
+ function getIds(){ 
+
+ var im=document.getElementsByTagName("img");
+
+ alert(im[0].id); 
+
+ alert(im[1].id);
+
+ var btns=document.getElementsByTagName("button");
+
+ alert(btns[0].id); 
+
+ alert(btns[1].id);
+
+ useIds();
+
+ }
+
+ function useIds(){
+
+ document.getElementById("btn1").onclick=evnt;
+
+ document.getElementById("btn2").onclick=evnt1;
+
+ }
+
+ function evnt(){
+
+ alert("Hello")
+
+ }
+
+ function evnt1(){
+
+ alert("Hello once again")
+
+ }
+
+< /script> 
+
+< /head> 
+
+< body >
+
+< center> 
+
+< img src="" width="" height="" id="image"> 
+
+< p> 
+
+< img src="" width="" height="" id="image1"> 
+
+< p> 
+
+< button id="btn1"> One< /button> 
+
+< p> 
+
+< button id="btn2"> Two< /button> 
+
+< center> 
+
+</body >
+
+</html > 

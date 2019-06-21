@@ -1,0 +1,43 @@
+< html > 
+
+< head >
+
+< title > Learn Javascript </title> 
+
+<script>
+
+ function KeyIn(){ 
+
+ if(event.keyCode){ 
+
+k = event.keyCode; if(k!=""){
+
+ document.write(k);}
+
+ }
+
+ else if(event.which){
+
+ k = event.which; if(k!=""){
+
+ document.write(k);}
+
+ } 
+
+ if(k==13){ alert("Enter"); 
+
+ }
+
+
+} 
+</script>
+
+</head>
+
+< body >
+
+<input type="text" size="13" onKeyPress="javascript:KeyIn()"> 
+
+</body >
+
+ </html > 

@@ -1,0 +1,56 @@
+< html > 
+
+< head >
+
+< title > Learn Javascript </title> 
+
+<script type="text/javascript" src="jquery.js"> 
+
+</script>
+
+<script type="text/javascript">
+
+ $(document).ready(function(){ 
+
+ var i=0;
+
+ do{i++;
+
+ $("#output").append("
+ Number :"+i); } while(i<5); 
+
+ alert(parent.window.location);
+
+ $("#click").click(function(){
+
+ alert("btn click");
+
+ });
+
+ $("#click").mouseover(function(){
+
+ document.bgColor="#44ddee";
+
+ });
+
+ });
+
+</script>
+
+</head>
+
+<body>
+
+<center>
+
+<div id="output"></div> 
+
+<p>
+
+<button id="click">Click
+
+</button></center> 
+
+</body >
+
+</html > 

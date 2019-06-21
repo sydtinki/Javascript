@@ -1,0 +1,26 @@
+window.onload=output;
+
+ // modulo example
+
+ var numbers = new Array();
+
+ numbers[0]=2;
+ numbers[1]=3;
+ numbers[2]=5;
+ numbers[3]=8;
+ numbers[4]=10;
+ numbers[5]=15;
+ numbers[6]=21;
+
+ function output(){ 
+
+ document.write("< center >");
+
+ for(i=0; i document.write("< br >"+numbers[i]+" % 2="+numbers[i]%2);
+
+ }
+
+ document.write(" < /center >");
+
+
+}

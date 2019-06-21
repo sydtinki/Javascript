@@ -1,0 +1,11 @@
+< script type="text/javascript" >
+
+ window.onload=History;
+
+ function History(){ 
+
+ history.back(); 
+
+ }
+
+< /script > 

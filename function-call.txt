@@ -1,0 +1,29 @@
+Here is JavaScript function-call example: 
+
+< script type="text/javascript" >
+
+ window.onload=init;
+
+ var welcome_message="You are welcome";
+
+ function welcome(){ 
+
+ alert(welcome_message);
+
+ }
+
+ function styling(){
+
+ document.bgColor="#ee33cc";
+
+ } 
+
+ function init(){ 
+
+ welcome(); // function call
+
+ styling();
+
+ }
+
+< /script >

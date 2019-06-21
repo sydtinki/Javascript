@@ -1,0 +1,13 @@
+< script type="text/javascript" >
+
+ window.onload=Loc;
+
+ var domain="https://www.google.com";
+
+ function Loc(){ 
+
+ window.location=domain;
+
+ } 
+
+< /script >

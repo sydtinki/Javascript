@@ -1,0 +1,43 @@
+< html >
+
+< head >
+
+< title > Learn Javascript </title> 
+
+<script type="text/javascript">
+
+ window.onload=function(){
+
+ setInterval('print()',1000); 
+
+ }
+
+ function print(){
+
+ // declare new date variable 
+
+ var d=new Date();
+
+ var sec=d.getSeconds();
+
+ document.getElementById("output").innerHTML="<h1>Seconds:</h1> "+sec;
+
+ }
+
+</script>
+
+</head>
+
+<body>
+
+<center>
+
+<div id="output"> 
+
+</div>
+
+</center>
+
+</body >
+
+</html > 

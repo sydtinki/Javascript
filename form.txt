@@ -1,0 +1,63 @@
+< html > 
+
+< head >
+
+< title > Learn Javascript </title> 
+
+<script type="text/javascript">
+
+ function getDetails(){
+
+ var n=login.name.value; 
+
+ var p=login.pass.value; 
+
+ if(n==""||p==""){ // check if user entered both name and password
+
+ alert("Enter both name and password!"); 
+
+ }
+
+ else{
+
+ printDetails(n,p);
+
+ }
+
+
+}
+ function printDetails(name,pass){ 
+
+ document.write("< b >Name:< /b > "+name);
+
+ document.write("< br >< b >Password:< /b > "+pass);
+
+ }
+
+</script>
+
+</head>
+
+<body>
+
+<center>
+
+<div id="output"><form name="login"> 
+
+Name:<input type="text" size="21" id="name"> <p>
+
+ Surname:<input type="password" size="21" id="pass"> 
+
+<p>
+
+<button onclick="javascript:getDetails()">Login</button> 
+
+</form>
+
+</div>
+
+</center>
+
+</body >
+
+</html > 

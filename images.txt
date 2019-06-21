@@ -1,0 +1,39 @@
+< html > 
+
+< head >
+
+< title > Learn Javascript </title> 
+
+<script type="text/javascript">
+
+ window.onload=printImg;
+
+ var source="ussd.png";
+
+ var hght=200;
+
+ var wdth=250;
+
+ function printImg(){ 
+
+ var imgId=document.getElementById("image");
+
+ imgId.src=source;
+
+ imgId.height=hght;
+
+ imgId.width=wdth;
+
+ }
+
+</script>
+
+</head>
+
+< body >
+
+<img src="" width="" height="" id="image"> 
+
+</body >
+
+</html >
