@@ -1,0 +1,13 @@
+< script type="text/javascript" >
+
+ window.onload=RanD;
+
+ var random=Math.floor(Math.random()*9);
+
+ function RanD(){ 
+
+ alert(random)
+
+ } 
+
+< /script >

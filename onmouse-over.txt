@@ -1,0 +1,39 @@
+< html > 
+
+< head >
+
+< title > Learn Javascript </title> 
+
+<script>
+
+ function red(){ 
+
+ document.bgColor="red";
+
+ }
+
+ function white(){ 
+
+ }
+
+</script>
+
+</head>
+
+<body>
+
+<a href="#" onmouseover="javascript:red()"> 
+
+<script> 
+
+ var d = new Date();
+
+ document.write(d);
+
+</script>
+
+</a>
+
+</body >
+
+</html > 

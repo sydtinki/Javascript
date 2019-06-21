@@ -1,0 +1,77 @@
+< html > 
+
+< head >
+
+< title > Learn Javascript </title> 
+
+<style>
+
+ #canv{
+
+ height:100; 
+
+background:red; 
+
+color:white;
+
+ }
+
+</style>
+
+<script type="text/javascript">
+
+ function whichButton(e){ 
+
+ var button;
+
+ if(!e){e = window.event; 
+
+ } 
+
+ if(e.which){
+
+ button = e.which;
+
+ }
+
+ if(e.button){
+
+ button = e.button;
+
+ }
+
+ output(button);
+
+ }
+
+ function output(x){ 
+
+ if(x=="1"){ 
+
+ alert('right click')
+
+ }
+
+ if(x=="2"){
+
+ document.getElementById("canv").innerHTML='left click';
+
+ }
+
+
+}
+</script>
+
+</head>
+
+< body >
+
+<center> 
+
+<div id="canv" onMousedown="javascript:whichButton(event)"> 
+
+click</div> 
+
+</center>
+
+</body > </html >

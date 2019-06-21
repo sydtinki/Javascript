@@ -1,0 +1,27 @@
+< script type="text/javascript" >
+
+ // javascript parameters example
+
+ var x="user";
+
+ var y=99;
+
+ load(x,y); // call a function that takes two parameters
+
+ function load(param1, param2){
+
+ alert("Parameters:\n"+param1+", "+param2);
+
+ var ID=param1+param2;
+
+ auth(ID); // call a function that takes a single parameter
+
+ }
+
+ function auth(who){
+
+ document.write(who)
+
+ }
+
+< /script >

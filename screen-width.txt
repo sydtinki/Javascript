@@ -1,0 +1,11 @@
+< script type="text/javascript" >
+
+ window.onload=load;
+
+ var wdth=screen.width;
+
+ function load(){
+
+ alert(wdth); }
+
+< /script >

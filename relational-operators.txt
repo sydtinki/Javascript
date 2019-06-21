@@ -1,0 +1,48 @@
+< script type="text/javascript" >
+
+ window.onload=output;
+
+ // relatinoal operators
+
+ // == equals
+ // != not equals
+ // > greater than
+ // < less than
+ // <= less than/ equal to
+ var a=10;
+
+ var b=2;
+
+ var print="";
+
+ function compare(){ 
+
+ equlas=a==b;
+
+ not=a!=b;
+
+ less=a greater=a>b;
+
+ lessOrEqul=a<=b;
+
+ print+="< br >"+a+"=="+b+" :"+equlas;
+
+ print+="< br >"+a+">"+b+" :"+greater;
+
+ print+="< br >"+a+"<"+b+" :"+less;
+
+ print+="< br >"+a+"!="+b+" :"+not;
+
+ print+="< br >"+a+"<="+b+" :"+lessOrEqul;
+
+ return print;
+
+ }
+
+ function output(){ 
+
+ document.write("< p >"+compare());
+
+ }
+
+< /script > 

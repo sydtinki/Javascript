@@ -1,0 +1,27 @@
+< html > 
+
+< head >
+
+< title > Learn Javascript </title> 
+
+<script>
+
+ var clk=0;
+
+ function Bclick(){clk++
+
+ alert("Click "+clk); 
+
+ }
+
+</script>
+
+</head>
+
+< body >
+
+<button onclick='javascript:Bclick()'>click</button>
+
+</body >
+
+</html > 

@@ -1,0 +1,35 @@
+< html > 
+
+< head >
+
+< title > Learn Javascript </title> 
+
+<script>
+
+ function changeBg(){ 
+
+ document.bgColor="#44ccde";
+
+ }
+
+</script>
+
+</head>
+
+< body >
+
+<a href="#" onmouseout="javascript:changeBg()">
+
+< script >
+
+ var d = new Date();
+
+ document.write(d);
+
+</script>
+
+</a>
+
+</body >
+
+</html > 

@@ -1,0 +1,37 @@
+< script type="text/javascript" >
+
+ window.onload=loop;
+
+ var c=0;
+
+ var nums=new Array();
+
+ var words=new Array();
+
+ function loop(){ 
+
+ for(i=0; i<5; i++){ nums[i]=i;
+
+ do{ c++;
+
+ words[i]="Number "+i; 
+
+ }while(c<5);
+
+ }
+
+ for(i=0; i< words.length; i++){
+
+ document.write(words[i]+"< p >");
+
+ }
+
+ for(i=0; i< nums.length; i++){
+
+ document.write(nums[i]+"< p >");
+
+ }
+
+
+}
+< /script > 

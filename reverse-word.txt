@@ -1,0 +1,39 @@
+< script type="text/javascript" >
+
+ window.onload=value;
+
+ function getValue(){ 
+
+ var number=99;
+
+ return number;
+
+ }
+
+ function getStrVal(){ 
+
+ var str="Hello user";
+
+ return str;
+
+ }
+
+ function getDouble(){ 
+
+ var number=300.01;
+
+ return number;
+
+ }
+
+ function value(){
+
+ alert(getValue());
+
+ alert(getStrVal());
+
+ alert(getDouble());
+
+ }
+
+< /script >

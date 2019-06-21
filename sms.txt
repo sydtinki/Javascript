@@ -1,0 +1,31 @@
+< html > 
+
+< head > 
+
+<script type="text/javascript">
+
+ // javascript sms example
+
+ function sendSms(){
+
+ var message=" Hello there";
+
+ window.location.href="sms:?body="+message;
+
+ }
+
+</script>
+
+</head>
+
+< body >
+
+<center>
+
+<a href="javascript:sendSms()">Sms<span id=''> /a> 
+
+</center>
+
+</body >
+
+</html > 

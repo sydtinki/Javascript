@@ -1,0 +1,21 @@
+< script type="text/javascript" >
+
+ window.onload=load;
+
+ var person = new Object();
+
+ person.name="Sekapu";
+
+ person.surname="Maskare";
+
+ person.age=27;
+
+ person.place="Melbourne";
+
+ function load(){ 
+
+ document.write(person.name+" "+person.surname+", "+person.age+" is from "+person.place);
+
+ }
+
+< /script > 
