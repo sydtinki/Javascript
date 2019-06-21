@@ -1,0 +1,61 @@
+< html > 
+
+< head >
+
+< title > Learn Javascript </title> 
+
+<script type="text/javascript">
+
+ window.onload=load;
+
+ function load(){ 
+
+ var txtB=document.getElementById("16");
+
+ txtB.value="write something here";
+
+ txtB.onclick=empty;
+
+ txtB.onmouseover=zoom;
+
+ txtB.onmouseout=deflt;
+
+ }
+
+ function empty(){
+
+ document.getElementById("16").value="";
+
+ document.getElementById("16").style.color="red";
+
+ }
+
+ function zoom(){
+
+ document.getElementById("16").style.height="10mm";
+
+ }
+
+ function deflt(){
+
+ document.getElementById("16").style.height="5mm";
+
+ document.bgColor="white";
+
+ }
+
+ function paint(){
+
+ document.bgColor="#ee22dd";
+
+ }
+
+< /script>
+
+< /head >
+
+< body >
+
+< center > <input type="text" size="20" id="16" onkeyPress="javascript:paint()"> < /center > </body >
+
+</html > 

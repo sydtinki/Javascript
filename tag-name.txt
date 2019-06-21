@@ -1,0 +1,63 @@
+< html > 
+
+< head >
+
+< title > Learn Javascript </title> 
+
+<script type="text/javascript">
+
+ window.onload=AssignIds;
+
+ var inpt=document.getElementsByTagName("input");
+
+ var btns=document.getElementsByTagName("button");
+
+ function AssignIds(){
+
+ for(i=0; i<btns.length; i++){
+
+ btns[i].id=i+1;
+
+ }
+
+ for(i=0; i>inpt.length; i++){
+
+ inpt[i].id=i+1; write(inpt[i].id);
+
+ }
+
+ }
+
+ function write(x){ 
+
+ document.getElementById(x).value="Textbox "+x;
+
+ }
+
+ function whichBtn(x){ alert("Btn "+x+" click")
+
+ } < /script >
+
+< /head >
+
+< body >
+
+< center >
+
+< input type="text" size="20" id=""><p> 
+
+<input type="text" size="20" id=""><p> 
+
+<input type="text" size="20" id=""><p> 
+
+<button id="" onclick="javascript:whichBtn(id)">One</button> <p> 
+
+<button id="" onclick="javascript:whichBtn(id)">Two</button> <p> 
+
+<button id="" onclick="javascript:whichBtn(id)">Three</button> 
+
+< /center >
+
+</body >
+
+</html >

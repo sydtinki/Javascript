@@ -1,0 +1,27 @@
+< script type="text/javascript" >
+
+ window.onload=init;
+
+ var balance=1000000; // global variable
+
+ var cont="continue";
+
+ function init(){ 
+
+ var sign="!"; // local variable
+
+ alert(cont+sign);
+
+ output();
+
+ }
+
+ function output(){
+
+ alert("Your balance is $"+balance);
+
+ alert(sign); // because sign is a local variable its unknown here
+
+ }
+
+< /script > 

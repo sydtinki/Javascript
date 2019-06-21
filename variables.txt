@@ -1,0 +1,21 @@
+Here is JavaScript variables example: 
+
+< script type="text/javascript" >
+
+ window.onload=Vars;
+
+ var name="Sekapu";
+
+ var surname="Fela";
+
+ var age=20;
+
+ var place="Gaborone";
+
+ function Vars(){
+
+ document.write(name+" "+surname+", "+age+" is from "+place);
+
+ }
+
+< /script > 

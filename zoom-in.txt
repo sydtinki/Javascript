@@ -1,0 +1,43 @@
+< html > 
+
+< head >
+
+< title > Learn Javascript </title> 
+
+<script >
+
+ window.onload=load;
+
+ function load(){ 
+
+ var txtB=document.getElementById("16");
+
+ txtB.style.background="red";
+
+ txtB.onmouseover=zoom;
+
+ }
+
+ function zoom(){
+
+ document.getElementById("16").style.height="20mm";
+
+ document.getElementById("16").style.width="50mm";
+
+ }
+
+</script >
+
+</head >
+
+<body >
+
+<center >
+
+<input type="text" size="20" id="16"> 
+
+</center >
+
+</body >
+
+</html > 

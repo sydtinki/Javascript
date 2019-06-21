@@ -1,0 +1,31 @@
+< script type="text/javascript" >
+
+ window.onload=wait;
+
+ var message="This will be printed after some seconds";
+
+ function print(){ 
+
+ document.write(message); 
+
+ }
+
+ function chageBg(){
+
+ document.bgColor="#22dde4";
+
+ }
+
+ function wait(){
+
+ var seconds=3000; // 3 seconds
+
+ setTimeout('print()',seconds); 
+
+ seconds=2000; // 2 seconds
+
+ setTimeout('chageBg()',seconds);
+
+ }
+
+< /script > 

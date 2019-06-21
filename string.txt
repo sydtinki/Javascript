@@ -1,0 +1,43 @@
+< script type="text/javascript" >
+
+ window.onload=load;
+
+ var str="Greetings to you";
+
+ var count=0;
+
+ function load(){ 
+
+ greet(str);
+
+ }
+
+ function greet(x){
+
+ document.write(x);
+
+ alert("Printing string with "+x.length+" characters");
+
+ alert("First word is "+firstWord(x))
+
+ }
+
+ function firstWord(y){ 
+
+ var word="";
+
+ for(i=0; i < y.length; i++){ count++; 
+
+ if(y[i]==" "){ break;
+
+ }
+
+ }
+
+ for(i=0; i }
+
+ return word;
+
+ }
+
+< /script > 

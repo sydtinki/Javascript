@@ -1,0 +1,25 @@
+< html > 
+
+< head >
+
+< title > Learn Javascript </title> 
+
+<script>
+
+ window.onload=getTitle;
+
+ function getTitle(){
+
+ document.write("This webpage`s title is: "+document.title);
+
+ }
+
+</script >
+
+</head>
+
+<body >
+
+</body >
+
+</html > 

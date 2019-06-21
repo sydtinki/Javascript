@@ -1,0 +1,37 @@
+< script type="text/javascript" >
+
+ window.onload=output;
+
+ var x=10;
+
+ var i=0;
+
+ function output(){ 
+
+ document.write("< table border='1' cellspacing='4' width='200' id='tab' >");
+
+ while(--x>0){ i++; 
+
+ two=i*2; 
+
+ three=i*3;
+
+ document.write("< tr >< td >"+i+"< /td >< td >"+two+"< /td >< td >"+three+"< /td >< /tr >");
+
+ if(x==1){ // end of while loop
+
+ paint()
+
+ }
+
+ }
+
+ document.write("< /table >"); } function paint(){
+
+ setTimeout('document.bgColor="yellow"',2000);
+
+ setTimeout('document.getElementById("tab").style.background="white"',3500);
+
+ }
+
+< /script > 

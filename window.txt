@@ -1,0 +1,23 @@
+< script type="text/javascript" >
+
+ window.onload=newWindow;
+
+ //without specifying the width and height, the new window will inherit device`s width and height
+
+ function newWindow(){
+
+ window.open('office.txt'); //opens office.txt file
+
+ setTimeout('another()',2000); //calls a function to open another window
+
+ }
+
+ function another(){
+
+ //opens ussd.png file in new window width:1000 and height:900
+
+ var winDw=open('ussd.png','ussd','width=1000,height=900, resizeable=yes'); 
+
+ }
+
+< /script >

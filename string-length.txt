@@ -1,0 +1,13 @@
+< script type="text/javascript" >
+
+ window.onload=StrLen;
+
+ var string="Hello there and how are you";
+
+ function StrLen(){
+
+ alert(string.length);
+
+ }
+
+< /script >

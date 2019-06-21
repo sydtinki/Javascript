@@ -1,0 +1,23 @@
+< script type="text/javascript" >
+
+ window.onload=Swtch;
+
+ var d=new Date();
+
+ var dy=d.getDay();
+
+ function Swtch(){
+
+ switch(dy){
+
+ case 1: alert("its monday"); break;
+
+ case 5: alert("its friday"); break;
+
+ default : alert("its not monday or friday");
+
+ }
+
+ }
+
+< /script > 

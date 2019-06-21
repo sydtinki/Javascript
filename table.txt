@@ -1,0 +1,21 @@
+< script type="text/javascript" >
+
+ window.onload=printTable; var names=new Array("Sekape","Punsa","Sosi");
+
+ var surnames=new Array("Fela","Sasa","White");
+
+ function printTable(){
+
+ document.write("< center >< table border='1' >< th >Name< /th > < th >Surname< /th >");
+
+ for(i=0; i<3; i++){
+
+ document.write("< tr >< td >"+names[i]+"< /td > < td >"+surnames[i]+"< /td > < /tr >");
+
+ }
+
+ document.write("< /table >< /center >")
+
+ }
+
+< /script > 

@@ -1,0 +1,17 @@
+< script type="text/javascript" >
+
+ window.onload=Tme; var d=new Date();
+
+ var hour=d.getHours();
+
+ var min=d.getMinutes();
+
+ var tme=hour+" : "+min
+
+ function Tme(){
+
+ document.write("The time is: "+tme);
+
+ }
+
+< /script > 
