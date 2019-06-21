@@ -1,0 +1,23 @@
+< script type="text/javascript" >
+
+ // javascript prompt example
+
+ var questions=new Array(); 
+
+ questions[0]="what is your name?";
+
+ questions[1]="What is your surname?";
+
+ questions[2]="How old are you?";
+
+ questions[3]="Where are you from?";
+
+ window.onload=function(){
+
+ for(var x in questions){
+
+ document.write(questions[x]+"< br >"); }
+
+ }
+
+< /script > 

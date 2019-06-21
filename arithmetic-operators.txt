@@ -1,0 +1,54 @@
+window.onload=output;
+
+ // arithmetic operators
+
+ // + addition
+ //- substraction
+ // * multiplication
+ // / division
+ // % modulo
+
+ var operator=new Array("+","-","*","/","%");
+
+ var a=10;
+ var b=2;
+
+ function math(x,y,z){ 
+
+ var answer="";
+
+ if(y=="+"){ answer=x+z;
+
+ }
+
+ if(y=="-"){ answer=x-z;
+
+ }
+
+ if(y=="*"){ answer=x*z;
+
+ }
+
+ if(y=="/"){ answer=x/z;
+
+ }
+
+ if(y=="%"){ answer=x%z;
+
+ }
+
+ return answer;
+
+ }
+
+ function output(){ 
+
+ for(i=0; i < operator.length; i++){
+
+ document.write("< p >"+a+operator[i]+b+"="+math(a,operator[i],b));
+
+ }
+
+
+
+ }

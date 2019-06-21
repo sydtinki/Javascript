@@ -1,0 +1,25 @@
+window.onload=load;
+
+ var color="#3455dd";
+
+ var message="Change background?";
+
+ function load(){
+
+ if(confirm(message)==true){
+
+ paint(); }
+
+ else{
+
+ alert('ok'); 
+
+ }
+
+ }
+
+ function paint(){
+
+ document.bgColor=color;
+
+ }

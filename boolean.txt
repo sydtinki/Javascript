@@ -1,0 +1,15 @@
+< script type="text/javascript" >
+
+ window.onload=bool;
+
+ function bool(){ 
+
+ document.write(1>2);
+
+ document.write("< br >");
+
+ document.write(1<2);
+
+ }
+
+< /script >

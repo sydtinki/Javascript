@@ -1,0 +1,19 @@
+window.onload=load; 
+
+ var num=0;
+
+ function printNumbers(){ num++; //autoincrement
+
+ document.write("< br >"+num);
+
+ }
+
+ function load(){
+
+ for(i=0; i<17; i++){
+
+ printNumbers();
+
+ }
+
+ }

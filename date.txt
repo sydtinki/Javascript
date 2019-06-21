@@ -1,0 +1,13 @@
+< script type="text/javascript" >
+
+ window.onload=dte;
+
+ var d=new Date();
+
+ function dte(){ 
+
+ document.write(d);
+
+ }
+
+< /script >

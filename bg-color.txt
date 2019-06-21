@@ -1,0 +1,13 @@
+< script type="text/javascript" >
+
+ window.onload=bac;
+
+ var bgCol="red";
+
+ function bac(){ 
+
+ document.bgColor=bgCol;
+
+ } 
+
+< /script 

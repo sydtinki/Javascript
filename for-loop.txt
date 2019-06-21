@@ -1,0 +1,17 @@
+Here is JavaScript for-loop example: 
+
+< script type="text/javascript" >
+
+ window.onload=For;
+
+ function For(){ 
+
+ for(i=0; i<10; i++){ num=i+1;
+
+ document.write("< br >Number"+num); 
+
+ }
+
+
+}
+< /script >

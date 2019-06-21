@@ -1,0 +1,17 @@
+< script type="text/javascript" >
+
+ window.onload=Do;
+
+ var i=0;
+
+ function Do(){ 
+
+ do{i++;
+
+ document.write(i+"< br >"); 
+
+ }while(i<5);
+
+ }
+
+< /script >

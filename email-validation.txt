@@ -1,0 +1,71 @@
+JavaScript email-validation example: 
+
+< html >
+
+< head >
+
+< title > Learn Javascript </title> 
+
+<script type="text/javascript">
+
+ // sample.html file "email validation example"
+
+ function email(form){
+
+ var addrss=form.addresses.value;
+
+ var lastChar=addrss.length-1;
+
+ if(form.addresses.value.indexOf("@")!=-1 && 
+
+ form.addresses.value.indexOf(".")!=-1 &&
+
+ form.addresses.value.charAt(lastChar)!="." && // name@domain. is invalid
+
+ form.addresses.value.charAt(0)!="@"){ // @domain is invalid
+
+ alert(addrss+" is valid") 
+
+ }
+
+ else{
+
+ alert("invalid email address");
+
+ return false; // keep form details 
+
+ }
+
+ }
+
+</script>
+
+</head>
+
+
+
+<center>
+
+<div id="output">
+
+<form name="login" action="sample.html" onsubmit="return email(this)"> 
+
+<h2> Add your email to receipient list</h2>
+
+ Email:<input type="text" size="21" id="addresses"> 
+
+<p>
+
+<input type="submit" value="add">
+
+<p>
+
+<input type="reset" value="reset">
+
+</form></div> 
+
+</center>
+
+</body>
+
+</html> 

@@ -1,0 +1,21 @@
+window.onload=load;
+
+ function warn(){
+
+ var str="Beware of the little Bugs";
+
+ return str;
+
+ }
+
+ function load(){
+
+ alert("Welcome");
+
+ var line2="to Javascript";
+
+ alert(line2);
+
+ alert(warn());
+
+ }

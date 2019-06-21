@@ -1,0 +1,51 @@
+< html > 
+
+< head >
+
+< title > Learn Javascript </title> 
+
+<script type="text/javascript">
+
+ window.onload=load;
+
+ function load(){ 
+
+ document.getElementById("1").onclick=evnt;
+
+ document.getElementById("1").onmouseover=yellowBg;
+
+ document.getElementById("1").onmouseout=defaultBg;
+
+ }
+
+ function evnt(){
+
+ alert("btn click");
+
+ document.getElementById("1").innerHTML="Click Again";
+
+ }
+
+ function yellowBg(){
+
+ document.bgColor="#FFFF9"
+
+ }
+
+ function defaultBg(){
+
+ document.bgColor="white";
+
+ }
+
+</script>
+
+</head>
+
+< body >
+
+<center> <button id="1">Click</button> </center> 
+
+</body >
+
+</html > 

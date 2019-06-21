@@ -1,0 +1,61 @@
+< html > 
+
+< head >
+
+< title > Learn Javascript </title> 
+
+<script type="text/javascript">
+
+ window.onload=print;
+
+ var write="";
+
+ var ID="";
+
+ function print(){
+
+ for(i=0; i<18; i++){ write+=i+"< p >"; 
+
+ document.getElementById("output").innerHTML=write;
+
+ }
+
+ ID="foo";
+
+ setTimeout('focs()',2000);
+
+ }
+
+ function focs(){ 
+
+ document.getElementById(ID).focus();
+
+ }
+
+ function fBtn(){ ID="fo";
+
+ focs();
+
+ }
+
+</script>
+
+</head>
+
+<body>
+
+<center><div id="output"> 
+
+</div><P> 
+
+<input type="text" size="20" id="foo"> <p>
+
+<a href="javascript:fBtn()">Focus Button</a> 
+
+<p>
+
+<button id="fo">one</button> 
+
+</body >
+
+</html > 

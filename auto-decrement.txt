@@ -1,0 +1,23 @@
+window.onload=load;
+
+ var num=30;
+
+ function printNumbers(){ num--; //autodecrement
+
+ document.write("< br >"+num);
+
+ }
+
+ function load(){
+
+ document.write("< center >");
+
+ for(i=num; i>0; i--){
+
+ printNumbers();
+
+ }
+
+ document.write("< /center >");
+
+ }

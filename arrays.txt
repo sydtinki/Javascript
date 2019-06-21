@@ -1,0 +1,29 @@
+var numbers=new Array();
+
+ numbers[0]=1;
+ numbers[1]=2;
+ numbers[2]=3;
+ numbers[3]=4;
+ numbers[4]=5;
+ numbers[5]=6;
+
+ document.write(numbers[5]);
+
+ var letters=new Array();
+
+ letters[0]="a";
+ letters[1]="b";
+ letters[2]="c";
+ letters[3]="d";
+ letters[4]="e";
+
+ document.write("< br >"+letters[4]);
+
+ var words=new Array();
+
+ words[0]="one";
+ words[1]="two";
+ words[2]="three";
+ words[3]="four";
+
+ document.write("< br >"+words[0]+", "+words[1]+", "+words[2]);
