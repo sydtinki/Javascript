@@ -1,0 +1,27 @@
+<html>
+<head>
+
+<script>
+
+ var curentTxt="";
+
+ function load(){ 
+
+ setTimeout('print()',2000); }
+
+ function print(){ var a = F1.hold.value; curentTxt+=a+"<br>";
+ 
+    document.getElementById("data").innerHTML=curentTxt;
+ }
+
+</script>
+</head>
+<body onLoad="load()">
+ <form name="F1"><input type="text" id="hold" value="received"></form>
+
+<div id="data">&nbsp;Z</div>
+<a href="javascript:print()">Print</a>
+
+</body>
+
+</html>

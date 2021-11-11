@@ -1,0 +1,72 @@
+<html>
+<head><title></title>
+<style>
+#msgCount{
+margin-left:60%;
+color:red;
+}
+p{
+margin-left:6%;
+}
+</style>
+
+<script type="text/javascript">
+window.onload=function(){ 
+
+document.getElementById("line").style.color='gray';
+
+var H1=document.getElementById('para1');
+var H2=document.getElementById('para2');
+var H3=document.getElementById('para3');
+
+H1.onmouseover=highlight;
+H1.onmouseout=clear;
+H1.onclick=whichOne;
+
+H2.onmouseover=highlight;
+H2.onmouseout=clear;
+H2.onclick=whichOne;
+
+H3.onmouseover=highlight;
+H3.onmouseout=clear;
+H3.onclick=whichOne;
+}
+
+function highlight(){ 
+
+this.style.color='black'; 
+this.style.backgroundColor='#fedffc';
+}
+
+function clear(){ 
+
+this.style.color='black'; 
+this.style.backgroundColor='white';
+}
+
+function whichOne(){
+alert(this.id);
+}
+</script>
+
+</head>
+<body>
+  <p id="para1">
+<b>Name Sname1</b> <span id='msgCount'>13</span><br><br>
+
+Hello there and how are you, do you remember summer <br>
+12/02/17 <br> <span id="line">------------------</span></p>
+
+<p id="para2">
+<b>Name Sname1</b> <span id='msgCount'>13</span><br><br>
+
+Hello para <br>
+
+12/02/17 <br> <span id="line">------------------</span></p>
+<p id="para3">
+<b>Name Sname1</b> <span id='msgCount'>13</span><br><br>
+
+Another para goes here <br>
+12/02/17 <br> <span id="line">------------------</span></p>
+</body>
+</html>

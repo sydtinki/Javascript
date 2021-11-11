@@ -1,0 +1,36 @@
+<html>
+<head>
+<title>
+
+slideShow
+
+</title>
+
+ <script>
+
+ var imgs = new Array("1.png","2.png","3.png");
+ var id = -1;
+
+ function slideShow(){ 
+   setInterval('nextPic()',2000); }
+
+ function nextPic(){ id++;
+
+ if(id>imgs.length-1){ id = 0
+
+ }
+
+  document.getElementById("show").src=imgs[id];
+
+}
+
+ </script>
+
+</head>
+<body onLoad="slideShow()"><center>
+
+ <img src="" id="show" width="200" height="180"> 
+
+</center>
+</body>
+</html>

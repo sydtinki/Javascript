@@ -1,0 +1,40 @@
+<html>
+<head>
+
+<script>
+
+ var nums = new Array();
+     nums[0]=1;
+     nums[1]=2;
+     nums[2]=3;  
+     nums[3]=4;
+     nums[4]=5;
+     nums[5]=6;
+   
+
+ var beginAt=nums.length-3;
+
+
+ function load(){
+
+  if(nums.length>=4){
+
+ for(i=beginAt; i<nums.length; i++){
+
+       document.write(nums[i]+"<br />");   }  } 
+
+    if(nums.length<=3){
+
+ for(i=0; i<nums.length; i++){
+
+       document.write(nums[i]+"<br />");   } document.write("NumsLength: "+nums.length);}}
+
+</script>
+</head>
+<body onLoad="load()">
+
+ &#169; Domain || Terms &#153; <script>document.write('\u263c\n');</script>
+
+</body>
+
+</html>

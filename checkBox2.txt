@@ -1,0 +1,42 @@
+<html>
+<head>
+
+<script>
+ var receivers = new Array();
+ var id=-1;
+ 
+ function load(){  var len =F2.place.length;
+
+ for(i=0; i<len; i++){ 
+
+ if(F2.place[i].checked==true){
+ 
+    getVal(F2.place[i].value); }  } setTimeout('sndMultple()',2000)}
+
+ function getVal(a){ id++;
+
+    receivers[id]=a; }
+
+
+ function sndMultple(){
+
+   for(i=0; i<receivers.length; i++){ alert('Send to'+receivers[i]);
+
+ } }
+
+</script>
+</head>
+<body>
+
+ <form name="F2">
+ <input type="checkbox" id="place" value="1"> one <p>
+ <input type="checkbox" id="place" value="2"> two <p>
+ <input type="checkbox" id="place" value="3"> three <p>
+ <input type="checkbox" id="place" value="4"> four<p>
+
+ </form>
+  <a href="javascript:load()"> Go!</a>
+ 
+</body>
+
+</html>
