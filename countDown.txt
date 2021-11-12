@@ -1,0 +1,103 @@
+<html>
+
+<head>
+    
+<script>
+    
+
+
+var flag
+
+var mins=0
+
+var sec=0
+
+
+
+  function running(){ sec--
+ 
+  
+
+      if(sec==0 && mins>0){
+     
+
+           mins--
+      sec = 60
+  }
+  
+ 
+
+       if(mins == 0){
+     
+
+          clearInterval(flag)
+      
+          done()
+  }
+
+         
+
+
+document.getElementById("minutes").innerHTML=mins+" : "+sec
+ }
+    
+
+          function done(){
+       
+
+               alert("done")
+    
+
+             }
+
+        
+   
+
+        function start(){ 
+    
+
+         var min = document.getElementById("duration").value;
+ 
+        sec = 60
+         
+         mins = min
+            
+   
+
+        if(!isNaN(min)){
+            
+            
+
+       flag = setInterval('running()',1000)
+   
+
+        }
+       
+
+            }
+    
+
+    </script>
+
+   
+
+</head>
+<body>  
+
+   <center>
+
+ <div id="minutes">Cout Down</div><p>
+    
+     
+
+    <input type="text" placeholder="Minutes" id="duration"> <p>
+         
+
+    
+<input type="button" value="start" onclick="JavaScript:start()">
+
+</center>
+
+
+ </body>
+<html>

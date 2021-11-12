@@ -1,0 +1,61 @@
+<html>
+    
+<head>
+        
+
+ <script>
+        
+
+ window.onload= load
+
+ 
+
+ function load(){
+     
+
+  var txt = document.getElementById("pass");
+     
+     
+
+  if(txt.value=="Jqb1"){ alert('Welcome')
+             
+   
+
+    }
+     
+
+    else{
+      
+
+       txt.select()
+   
+
+    }
+
+ }
+ 
+        
+        
+
+</script>
+    
+</head>
+    
+
+<body><center>  <form>
+ 
+
+       Password: Jqb1<p>
+<input type="text" id="pass"><p>
+
+
+                        <input type="button" value="Go" onclick="JavaScript:load()">
+ 
+
+          
+   
+             </form>
+      </center>
+
+ </body>
+</html>
