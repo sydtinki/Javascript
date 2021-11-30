@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Email Validation
+</title>
+
+ <script>
+ 
+var newText = "";
+
+ function textChange(f){ getText = f.value
+
+ newText = getText
+
+ validate()}
+
+ function validate(){ 
+ 
+
+ if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(newText))
+{
+ document.getElementById("error").innerHTML="";
+}
+
+ else{
+
+ document.getElementById("error").innerHTML="Invalid Eamil Address";
+
+}
+
+}
+
+</script>
+
+</head>
+<body><center>
+
+<h1>Email Validation</h1>
+<p>
+<input type="text" onKeyUp="textChange(this)"><p>
+
+ <div id="error" style="color:red"> errorr</div>
+
+</center>
+</body>
+</html>
